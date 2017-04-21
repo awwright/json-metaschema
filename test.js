@@ -1,0 +1,5 @@
+var should = require('should')
+var metaschemas = require('./index')
+should(metaschemas).have.property('draft-06-schema')
+should(metaschemas).have.property('draft-06-hyper-schema')
+should(metaschemas['draft-06-hyper-schema']).have.property('title')
