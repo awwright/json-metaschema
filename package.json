@@ -1,6 +1,5 @@
 {
   "name": "json-metaschema",
-  "version": "1.1.0",
   "description": "Repository of JSON Schema meta-schemas",
   "main": "index.js",
   "scripts": {
